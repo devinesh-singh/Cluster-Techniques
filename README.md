@@ -6,7 +6,9 @@ Objective:
 Generate 2-3 datsets. Use at least 3 different linkage types, and compare the optimal amount of clusters for each dataset according to the output of each of the three internal validation indices. Then, compare similarity of each of the clustering outcomes to the known clusters of each dataset
 
 Cluster Types:
-
+(1) Guassian Circles
+(2) Moon-shaped Clusters - two interleaving half-circles 
+(3) 
 Linkages:
 Chose the following three (3) linkage methods:
 (1)
