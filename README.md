@@ -1,25 +1,25 @@
 #Hierarchical-Cluster-Techniques
 
-CS252 Project:
+##CS252 Project:
 
-Objective: 
-Generate 2-3 datsets. Use at least 3 different linkage types, and compare the optimal amount of clusters for each dataset according to the output of each of the three internal validation indices. Then, compare similarity of each of the clustering outcomes to the known clusters of each dataset
+##Objective: 
+Generate 2-3 datsets. Use at least 3 different linkage types, and compare the optimal amount of clusters for each dataset according to the output of each of the three internal validation indices. Then, compare similarity of each of the clustering outcomes to the known clusters of each dataset 
 
-Cluster Types:
+##Cluster Types:
 (1) Spherical Classes/Circles - 2 or more smaller circles surrounded by a larger circle
 (2) Non-Zero covariance
 (3) Gaussian Mixture Model
 
-Measure: 
+##Measure: 
 Calinski and Harabasz Index: ratio between the within-cluster dispersion and between cluster dispersion.
 
-Linkages:
+##Linkages:
 Chose the following three (3) linkage methods:
 (1) Single Linkage: combine elements/clusters in a bottom-up fashion. At each step, combine the closest pair of elements.
 (2) Average Linkage: average distance between two pairs is used. Takes into account the size of each cluster.  
 (3) McQuitty: distance is calculated as follows: (distkj + distij)/2
 
-Generating the Datasets:
+##Generating the Datasets:
 (2) Gaussian Micture Models
 We use the function rmvnorm from the package mvtnorm to generate random numbers following a multivariate normal distribution.
 
