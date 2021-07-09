@@ -1,4 +1,4 @@
-# Compare-Hierarchical-Cluster-Techniques
+#Hierarchical-Cluster-Techniques
 
 CS252 Project:
 
